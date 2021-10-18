@@ -1,0 +1,11 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .tip-btn {
+        @apply w-full h-8 bg-teal-600 flex justify-center items-center rounded-md text-white cursor-pointer;
+    }
+}
